@@ -33,7 +33,7 @@ type Props = {
 enum FooterLinks {
   Github = 'https://github.com/vasyl-pavlenko/apple-store',
   Contacts = 'https://v1-lac.vercel.app',
-  Rights = '/',
+  Rights = 'https://github.com/vasyl-pavlenko/apple-store',
 }
 
 export const Footer: FC<Props> = ({ className = '' }) => {
