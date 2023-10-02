@@ -1,0 +1,36 @@
+// Import variables
+@import "./vars";
+
+// Media Query Mixins
+@mixin onDesktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin onTablet {
+  @media (min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin onMobile {
+  @media (max-width: 639px) {
+    @content;
+  }
+}
+
+// Shape Mixin
+@mixin shape($width, $height: $width, $radius: false) {
+  width: $width;
+  height: $height;
+
+  @if $radius {
+    border-radius: $radius;
+  }
+}
+
+// Transition Mixin
+@mixin transition($prop: all) {
+  transition: $prop $duration linear;
+}

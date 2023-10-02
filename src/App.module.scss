@@ -1,0 +1,29 @@
+// Import utility mixins
+@import "utils";
+
+// Styles for the root App component
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  // Header styles
+  &__Header {
+    margin-bottom: 24px;
+
+    // Tablet-specific styles
+    @include onTablet {
+      margin-bottom: 32px;
+    }
+
+    // Desktop-specific styles
+    @include onDesktop {
+      margin-bottom: 56px;
+    }
+  }
+
+  // Footer styles (pushes it to the bottom of the container)
+  &__Footer {
+    margin-top: auto;
+  }
+}

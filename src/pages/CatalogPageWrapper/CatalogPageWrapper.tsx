@@ -1,0 +1,49 @@
+import {
+  FC,
+  Suspense
+} from 'react';
+
+import {
+  Await,
+  useLoaderData,
+  useParams
+} from 'react-router-dom';
+
+import { ErrorMessage } from '../../components/ErrorMessage';
+import { Loader } from '../../components/Loader';
+import {
+  Styles,
+  ErrorText,
+  Product
+} from '../../types';
+
+import { CatalogPage } from '../CatalogPage/CatalogPage';
+
+const styles: Styles = require('./CatalogPageWrapper.module.scss');
+
+const {
+  CatalogPageWrapper__ErrorMessage: error,
+} = styles.default;
+
+export const CatalogPageWrapper: FC = () => {
+  const { products } = useLoaderData() as { products: Product[] };
+  const { category } = useParams();
+
+  return (
+    <Suspense fallback={<Loader />}>
+      <Await
+        resolve={products}
+        errorElement={(
+          <ErrorMessage
+            warn
+            isBig
+            className={error}
+            message={ErrorText.PageLoad}
+          />
+        )}
+      >
+        <CatalogPage key={category} />
+      </Await>
+    </Suspense>
+  );
+};

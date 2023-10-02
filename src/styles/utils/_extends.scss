@@ -1,0 +1,114 @@
+// Import mixins
+@import "./mixins";
+
+// Placeholder for a responsive container
+%container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @include onTablet {
+    max-width: 700px;
+  }
+
+  @include onDesktop {
+    max-width: 1170px;
+  }
+}
+
+// Placeholder for a tablet-specific container
+%container-tablet {
+  margin: 0 auto;
+
+  @include onTablet {
+    max-width: 700px;
+    padding: 0 20px;
+  }
+
+  @include onDesktop {
+    max-width: none;
+    padding: 0;
+  }
+}
+
+// Placeholder for a desktop-specific container
+%container-desktop {
+  @include onDesktop {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+// Placeholder for a mobile-specific container
+%container-mobile {
+  @include onMobile {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+// Placeholder for heading styles
+%h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+}
+
+%h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+}
+
+%h3 {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+%h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+// Placeholder for uppercase text styles
+%uppercase {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+// Placeholder for button styles
+%buttons {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+// Placeholder for body text styles
+%body-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+// Placeholder for small text styles
+%small-text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+// Placeholder for photo styles
+%photo {
+  @include shape (100%);
+  object-fit: cover;
+  object-position: center;
+}

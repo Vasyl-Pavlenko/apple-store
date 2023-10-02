@@ -1,0 +1,97 @@
+{
+  "id": 173174,
+  "category": "phones",
+  "year": 2022,
+  "namespaceId": "apple-iphone-14-pro-max",
+  "name": "Apple iPhone 14 Pro Max",
+  "screen": "6,7' IPS",
+  "resolution": "2796x1290",
+  "processor": "Apple A16 Bionic",
+  "ram": "6GB",
+  "camera": "48 Mp + 12 Mp + 12MP + 12MP",
+  "colors": [
+    "black",
+    "gold",
+    "purple",
+    "silver"
+  ],
+  "capacities": [
+    "128GB",
+    "256GB",
+    "512GB",
+    "1TB"
+  ],
+  "models": [
+    {
+      "capacity": "128GB",
+      "fullPrice": 1951,
+      "discountPrice": 1851,
+      "colorsAvailable": {
+        "black": 7,
+        "gold": 1,
+        "purple": 67,
+        "silver": 18
+      }
+    },
+    {
+      "capacity": "256GB",
+      "fullPrice": 2051,
+      "discountPrice": 1951,
+      "colorsAvailable": {
+        "black": 82,
+        "gold": 0,
+        "purple": 48,
+        "silver": 99
+      }
+    },
+    {
+      "capacity": "512GB",
+      "fullPrice": 2051,
+      "colorsAvailable": {
+        "black": 69,
+        "gold": 0,
+        "purple": 0,
+        "silver": 40
+      }
+    },
+    {
+      "capacity": "1TB",
+      "fullPrice": 2200,
+      "discountPrice": 2100,
+      "colorsAvailable": {
+        "black": 9,
+        "gold": 2,
+        "purple": 1,
+        "silver": 30
+      }
+    }
+  ],
+  "description": [
+    {
+      "title": "Beyond Imagination",
+      "text": [
+        "Discover a magical new way to interact with the iPhone 14 Pro Max. With groundbreaking safety features designed to save lives, this smartphone takes innovation to new heights. It boasts an innovative camera system that captures mind-blowing detail, setting a new standard for mobile photography.", 
+        "All of this is powered by the ultimate smartphone chip, ensuring exceptional performance and efficiency. But that's not all – the iPhone 14 Pro Max is meticulously designed from the ground up to protect your privacy, giving you full control over what you share and with whom."
+      ]
+    },
+    {
+      "title": "Revolutionizing Photography",
+      "text": [
+        "The iPhone 14 Pro Max introduces a revolutionary camera system that seamlessly blends cutting-edge technology with the legendary simplicity that iPhone users know and love. Capture up to four times more of the scene with every shot, even in drastically lower light conditions. Record the highest-quality videos on a smartphone, and then edit them with the same intuitive tools you adore for photos.", 
+        "This is photography like you've never experienced before. Moreover, with Photographic Styles, you have the power to give your photos a unique look. Choose from styles like Warm or Cool, and watch as the iPhone applies adjustments that keep skies and skin tones natural, ensuring that your photos always reflect your personal style."
+      ]
+    },
+    {
+      "title": "Exceptional Battery Life",
+      "text": [
+        "Experience big-time battery life with the iPhone 14 Pro Max. Its highly efficient chip, combined with an enhanced battery and the latest iOS 16, work harmoniously to boost battery life, keeping you connected for longer. When it's time to recharge, simply place your iPhone on a wireless charger for hassle-free convenience. Alternatively, connect a 20W or higher adapter for lightning-fast charging, going from zero to up to 50 percent charge in just 30 minutes."
+      ]
+    },
+    {
+      "title": "Unleash the Power of 5G",
+      "text": [
+        "With 5G connectivity, the iPhone 14 Pro Max unlocks a world of possibilities. Enjoy lightning-fast downloads, seamless streaming, and lag-free gaming. Whether you're into live streaming, multiplayer gaming, or video sharing, 5G technology takes your mobile experience to a whole new level. FaceTime calls come to life in high definition, and SharePlay feels incredibly smooth and seamless when you're on the go. The iPhone 14 Pro Max ensures that fun is always just a click away."
+      ]
+    }
+  ]
+}
